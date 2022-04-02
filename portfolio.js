@@ -89,7 +89,7 @@
 //       > See Live</a>
 //         <img class="" src="/images/symbolproject.svg" />
 //       </button>
-    
+
 //     <button class="see-source">
 //     <a
 //         class="source-link"
@@ -191,15 +191,13 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
   } else error.textContent = '';
 });
-function saveData()
-{
-let fName,email,msg;
-fName = doument.getElementById('name').value;
-email = doument.getElementById('mail').value;
-message = doument.getElementById('msg').value;
+function saveData() {
+  let fName; let email; let msg;
+  fName = doument.getElementById('name').value;
+  email = doument.getElementById('mail').value;
+  message = doument.getElementById('msg').value;
 
-localStorage.setItem('name',fName)
-localStorage.setItem('mail',email)
-localStorage.setItem('msg',message)
+  localStorage.setItem('name', fName);
+  localStorage.setItem('mail', email);
+  localStorage.setItem('msg', message);
 }
-

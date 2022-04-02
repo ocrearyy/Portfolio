@@ -633,6 +633,12 @@ textarea:focus {
   padding-top: 1rem;
 }
 
+#score {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media only screen and (min-width: 992px) {
   .menuDropDown {
     display: none;
