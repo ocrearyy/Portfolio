@@ -13,7 +13,7 @@ body {
 .navBar {
   display: flex;
   justify-content: space-between;
-  background-image: linear-gradient(to right, #437fc7 , #6daffe);
+  background-image: linear-gradient(to right, #437fc7, #6daffe);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 20px;
@@ -36,12 +36,11 @@ body {
 }
 
 .blue-lines {
-  display:inline-block;
-  height: 5px;px;
-  width:200px;
-  border-radius:60px;
-  background:
-  radial-gradient(circle at calc(90% - 0px) 50%, transparent 90px,#6daffe 21px);
+  display: inline-block;
+  height: 5px;
+  width: 200px;
+  border-radius: 60px;
+  background: radial-gradient(circle at calc(90% - 0px) 50%, transparent 90px, #6daffe 21px);
   margin-left: 20px;
   border: 2px solid #edf6ff;
   background-color: #edf6ff;
@@ -196,7 +195,7 @@ body {
 }
 
 .section-1-head-text {
-line-height: 5px;
+  line-height: 5px;
 }
 
 .section-1-h2 {
@@ -226,7 +225,7 @@ line-height: 5px;
   padding: 0 2rem 0 1rem;
   font-style: normal;
   font-size: 15px;
-  color: #000
+  color: #000;
 }
 
 .connect-List a img {
@@ -316,7 +315,7 @@ line-height: 5px;
   font-weight: 600;
 }
 
-ul li::marker{
+ul li::marker {
   color: #6daffe;
 }
 
@@ -421,7 +420,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   line-height: 3rem;
-  padding: 100px 0px 0px 20px;
+  padding: 100px 0.01px 0.01px 20px;
 }
 
 .tools {
@@ -505,7 +504,7 @@ img[src*="downArrow.png"] {
   padding: 1em;
   border: 1px solid #fff;
   border-top-left-radius: 5rem;
-  background-image: linear-gradient(to right, #437fc7 , #6daffe);
+  background-image: linear-gradient(to right, #437fc7, #6daffe);
   padding-bottom: 1px;
 }
 
