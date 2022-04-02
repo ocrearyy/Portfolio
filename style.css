@@ -178,6 +178,7 @@ body {
   background: #fff 50% url(images/header-icon.webp) no-repeat;
   background-position: top right;
   background-size: 230px;
+  border-bottom-left-radius: 60px;
 }
 
 .section1 h1 {
@@ -236,13 +237,15 @@ line-height: 5px;
 .section1 ul {
   display: flex;
   list-style: none;
-  padding: 0 2rem 0 1rem;
+  padding: 0 10px 20px 20px;
 }
 
 .main-Grid-Works {
   display: grid;
   grid-template-columns: 100%;
   row-gap: 8rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .snapshoot {
@@ -391,14 +394,14 @@ ul li::marker{
 .about-Myself {
   /* display: flex; */
   background-color: white;
-  border-top-right-radius: 5rem;
+  border-top-right-radius: 60px;
+  margin-top: 120px;
 }
 
 .about-Myself p {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  width: 80%;
   height: auto;
   padding: 0.1rem 2rem 0.1rem 1rem;
   line-height: 25px;
@@ -417,8 +420,8 @@ ul li::marker{
   font-size: 40px;
   display: flex;
   align-items: center;
-  padding: 0.1rem 2rem 0.1rem 1rem;
   line-height: 3rem;
+  padding: 100px 0px 0px 20px;
 }
 
 .tools {
@@ -546,16 +549,16 @@ textarea {
   color: red;
 }
 
-#name1::placeholder {
-  color: #172b4d;
+#name::placeholder {
+  color: #b3bac5;
 }
 
 #mail::placeholder {
-  color: #172b4d;
+  color: #b3bac5;
 }
 
 textarea::placeholder {
-  color: #172b4d;
+  color: #b3bac5;
 }
 
 textarea {
