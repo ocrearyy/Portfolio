@@ -406,7 +406,7 @@ ul li::marker {
   line-height: 25px;
 }
 
-.about-Myself ul {
+.about-Myself ul  {
   display: flex;
   list-style: none;
   padding: 0 2rem 0 1rem;
@@ -431,6 +431,10 @@ ul li::marker {
   font-weight: bolder !important;
   font-size: 20px !important;
   align-items: baseline;
+}
+
+.html {
+  flex-direction: column;
 }
 
 .seperator { width: 95%; }
@@ -477,21 +481,18 @@ img[src*="downArrow.png"] {
 
 .ellipse-J {
   float: right;
-  padding-right: 9rem;
   padding-top: 1rem;
   font-weight: bold;
 }
 
 .ellipse-C {
   float: right;
-  padding-right: 12rem;
   padding-top: 1rem;
   font-weight: bold;
 }
 
 .ellipse-H {
   float: right;
-  padding-right: 11rem;
   padding-top: 1rem;
   font-weight: bold;
 }
@@ -600,6 +601,7 @@ textarea:focus {
 .form-Container {
   background-color: #edf6ff;
   display: flex;
+  margin-top: 120px;
 }
 
 #contact-Me {
