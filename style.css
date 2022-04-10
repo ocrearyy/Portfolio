@@ -654,7 +654,7 @@ textarea:focus {
   .menuDropDown {
     display: none;
   }
-  
+
   .desktop-menu-ul {
     display: flex;
     margin-right: 40px;
@@ -696,7 +696,6 @@ textarea:focus {
     font-weight: bold;
     font-size: 30px;
     margin-left: 11rem;
-    
   }
 
   .section-1-head-text {
