@@ -406,7 +406,7 @@ ul li::marker {
   line-height: 25px;
 }
 
-.about-Myself ul  {
+.about-Myself ul {
   display: flex;
   list-style: none;
   padding: 0 2rem 0 1rem;
