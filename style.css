@@ -144,6 +144,10 @@ body {
   padding-top: 2rem;
 }
 
+.desktop-menu-ul {
+  display: none;
+}
+
 .mobile-menu-li {
   list-style: none;
   padding-bottom: 2rem;
@@ -649,6 +653,22 @@ textarea:focus {
 @media only screen and (min-width: 992px) {
   .menuDropDown {
     display: none;
+  }
+  
+  .desktop-menu-ul {
+    display: flex;
+    margin-right: 100px;
+  }
+
+  .desktop-menu-li {
+    list-style: none;
+  }
+
+  .desktop-menu-li a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 50px;
+    font-size: 20px;
   }
 
   .my-logo {

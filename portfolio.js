@@ -62,43 +62,43 @@ const portfolio = [
 ];
 function getHtml(projectData) {
   return `
-//   <img class="x-display" src="${portfolio.img[0]}">
-//     <h2 class="tonic">Pricing Panel</h2>
-//     <ul class="sub-Points">
-//       <li class="canopy">${portfolio.information1[0]}</li>
-//       <li class="sub-Text">${portfolio.information2[0]}</li>
-//       <li class="sub-Text">${portfolio.information3[0]}</li>
-//     </ul>
-//     <div class="desktop-Img-Works">
-//       <img class="snapshoot" src="${projectData.img}" />
-//     </div>
-//     <p class="popup-paragraph">
-//     ${projectData.description}
-//     </p>
-//     <div class="lang"></div>
-//     <ul class="languages">
-//       <li class="languages-List">${projectData.technolgies1}</li>
-//       <li class="languages-List">${projectData.technologies2}</li>
-//       <li class="languages-List">${projectData.technologies3}</li>
-//     </ul>
-//     <div class="popup-buttons">
-//       <button class="see-live">
-//       <a
-//         class="live-link"
-//         href="${projectData.seeLive}"
-//       > See Live</a>
-//         <img class="" src="/images/symbolproject.svg" />
-//       </button>
+       <img class="x-display" src="images/xim.svg">
+    <h2 class="tonic">Pricing Panel</h2>
+    <ul class="sub-Points">
+      <li class="canopy">${projectData.information1}</li>
+      <li class="sub-Text">${projectData.information2}</li>
+      <li class="sub-Text">${projectData.information3}</li>
+    </ul>
+    <div class="desktop-Img-Works">
+      <img class="snapshoot" src="${projectData.img}" />
+    </div>
+    <p class="popup-paragraph">
+    ${projectData.description}
+    </p>
+    <div class="lang"></div>
+    <ul class="languages">
+      <li class="languages-List">${projectData.technolgies1}</li>
+      <li class="languages-List">${projectData.technologies2}</li>
+      <li class="languages-List">${projectData.technologies3}</li>
+    </ul>
+    <div class="popup-buttons">
+      <button class="see-live">
+      <a
+        class="live-link"
+        href="${projectData.seeLive}"
+      > See Live</a>
+        <img class="" src="/images/symbolproject.svg" />
+      </button>
 
-//     <button class="see-source">
-//     <a
-//         class="source-link"
-//         href="${projectData.seeSource}"
-//       > See Source</a>
-//       <img class="" src="/images/kittyproject.svg" />
-//       </div>
-//     </button>
-//   `;
+    <button class="see-source">
+    <a
+        class="source-link"
+        href="${projectData.seeSource}"
+      > See Source</a>
+      <img class="" src="/images/kittyproject.svg" />
+      </div>
+    </button>
+  `;
 }
 function getProject(projectData) {
   return `
