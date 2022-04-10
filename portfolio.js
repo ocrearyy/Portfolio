@@ -1,6 +1,6 @@
 const portfolio = [
   {
-    img: 'images/pricing-panel-image',
+    img: 'images/pricing-panel-image.png',
     name: 'Pricing Panel',
     information1: 'Software',
     information2: 'Front End Dev',
@@ -15,12 +15,12 @@ const portfolio = [
     span2: 'See source',
   },
   {
-    img: 'images/Snapshoot-Portfolio2.svg',
-    name: 'Multi-Post Stories',
-    information1: 'CANOPY',
-    information2: 'Back End Dev',
-    information3: '2015',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    img: 'images/online-candy-store.png',
+    name: 'Online Candy Store',
+    information1: 'Website',
+    information2: 'Front End Dev',
+    information3: '2021',
+    description: 'This is a Online Candy Store that has the most tasty and sweet candy treats to fill your appetite.',
     technolgies1: 'html',
     technologies2: 'css',
     technologies3: 'javascript',
@@ -30,12 +30,12 @@ const portfolio = [
     span2: 'See source',
   },
   {
-    img: 'images/Snapshoot-Portfolio3.svg',
-    name: 'Tonic',
-    information1: 'CANOPY',
-    information2: 'Back End Dev',
-    information3: '2015',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    img: 'images/score-keeper.png',
+    name: 'Score Keeper',
+    information1: 'Application',
+    information2: 'Front End Dev',
+    information3: '2022',
+    description: 'I created this Score Keeper App for my friends to use as we were tired of trying to find a pen or pencil and a piece of paper to keep score.',
     technolgies1: 'html',
     technologies2: 'css',
     technologies3: 'javascript',
@@ -45,12 +45,12 @@ const portfolio = [
     span2: 'See source',
   },
   {
-    img: 'images/Snapshoot-Portfolio4.svg',
-    name: 'Multi-Post Stories',
-    information1: 'CANOPY',
-    information2: 'Back End Dev',
-    information3: '2015',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    img: 'images/cc-campaign.PNG',
+    name: 'CC Global Summit',
+    information1: 'Conference',
+    information2: 'Front End Dev',
+    information3: '2022',
+    description: 'The Global Summit brings together the community of experts, academics and activists who comprise the Creative Commons Affiliate network in a different country every two years.',
     technolgies1: 'html',
     technologies2: 'css',
     technologies3: 'javascript',
@@ -62,43 +62,43 @@ const portfolio = [
 ];
 function getHtml(projectData) {
   return `
-  <img class="x-display" src="images/xim.svg">
-    <h2 class="tonic">Pricing Panel</h2>
-    <ul class="sub-Points">
-      <li class="canopy">${projectData.information1}</li>
-      <li class="sub-Text">${projectData.information2}</li>
-      <li class="sub-Text">${projectData.information3}</li>
-    </ul>
-    <div class="desktop-Img-Works">
-      <img class="snapshoot" src="${projectData.img}" />
-    </div>
-    <p class="popup-paragraph">
-    ${projectData.description}
-    </p>
-    <div class="lang"></div>
-    <ul class="languages">
-      <li class="languages-List">${projectData.technolgies1}</li>
-      <li class="languages-List">${projectData.technologies2}</li>
-      <li class="languages-List">${projectData.technologies3}</li>
-    </ul>
-    <div class="popup-buttons">
-      <button class="see-live">
-      <a
-        class="live-link"
-        href="${projectData.seeLive}"
-      > See Live</a>
-        <img class="" src="/images/symbolproject.svg" />
-      </button>
+//   <img class="x-display" src="${portfolio.img[0]}">
+//     <h2 class="tonic">Pricing Panel</h2>
+//     <ul class="sub-Points">
+//       <li class="canopy">${portfolio.information1[0]}</li>
+//       <li class="sub-Text">${portfolio.information2[0]}</li>
+//       <li class="sub-Text">${portfolio.information3[0]}</li>
+//     </ul>
+//     <div class="desktop-Img-Works">
+//       <img class="snapshoot" src="${projectData.img}" />
+//     </div>
+//     <p class="popup-paragraph">
+//     ${projectData.description}
+//     </p>
+//     <div class="lang"></div>
+//     <ul class="languages">
+//       <li class="languages-List">${projectData.technolgies1}</li>
+//       <li class="languages-List">${projectData.technologies2}</li>
+//       <li class="languages-List">${projectData.technologies3}</li>
+//     </ul>
+//     <div class="popup-buttons">
+//       <button class="see-live">
+//       <a
+//         class="live-link"
+//         href="${projectData.seeLive}"
+//       > See Live</a>
+//         <img class="" src="/images/symbolproject.svg" />
+//       </button>
 
-    <button class="see-source">
-    <a
-        class="source-link"
-        href="${projectData.seeSource}"
-      > See Source</a>
-      <img class="" src="/images/kittyproject.svg" />
-      </div>
-    </button>
-  `;
+//     <button class="see-source">
+//     <a
+//         class="source-link"
+//         href="${projectData.seeSource}"
+//       > See Source</a>
+//       <img class="" src="/images/kittyproject.svg" />
+//       </div>
+//     </button>
+//   `;
 }
 function getProject(projectData) {
   return `
