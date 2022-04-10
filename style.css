@@ -657,7 +657,7 @@ textarea:focus {
   
   .desktop-menu-ul {
     display: flex;
-    margin-right: 100px;
+    margin-right: 40px;
   }
 
   .desktop-menu-li {
@@ -691,6 +691,29 @@ textarea:focus {
     padding-right: 5rem;
   }
 
+  .section-1-h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 11rem;
+    
+  }
+
+  .section-1-head-text {
+    line-height: 20px;
+  }
+
+  .blue-lines {
+    display: inline-block;
+    height: 5px;
+    width: 200px;
+    border-radius: 60px;
+    background: radial-gradient(circle at calc(90% - 0px) 50%, transparent 90px, #6daffe 21px);
+    margin-left: 11rem;
+    border: 2px solid #edf6ff;
+    background-color: #edf6ff;
+  }
+
   .desktop-Nav {
     display: flex;
   }
@@ -719,15 +742,10 @@ textarea:focus {
   }
 
   .section1 {
-    background-color: white;
-    border-bottom-left-radius: 5rem;
-    margin-bottom: 5rem;
-    background-image: url(images/desktopHeaderbg.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: fit-content;
-    height: 100%;
-    padding-bottom: 10rem;
+    background: #fff 80% url(images/header-icon.webp) no-repeat;
+    background-position: top right 100px;
+    background-size: 400px;
+    border-bottom-left-radius: 60px;
   }
 
   .section1 h1 {
@@ -747,9 +765,8 @@ textarea:focus {
     display: flex;
     padding: 0 2rem 0 1rem;
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    color: #7f8cff;
+    font-size: 15px;
+    color: #000;
     margin-left: 10rem;
     margin-top: 2rem;
   }
