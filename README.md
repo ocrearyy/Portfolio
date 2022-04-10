@@ -13,16 +13,15 @@
 
 ## Live Demo (Responsive Web Design accessible on Desktop and mobile)
 
-https://oshanedesign.github.io/My-Portfolio/ 
-
+https://oshanedesign.github.io/Portfolio/
 
 ## Getting Started
 
 
 To get a local copy up and running follow these simple example steps.
 
-1. Git clone git@github.com:oshanedesign/Portfolio-setup-and-mobile-version-skeleton.git 
-2. Cd Portfolio-setup-and-mobile-version-skeleton
+1. Git clone git@github.com:oshanedesign/Portfolio.git 
+2. Cd Portfolio
 
 
 ## Authors
