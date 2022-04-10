@@ -60,92 +60,92 @@ const portfolio = [
     span2: 'See source',
   },
 ];
-function getHtml(projectData) {
-  return `
-       <img class="x-display" src="images/xim.svg">
-    <h2 class="tonic">Pricing Panel</h2>
-    <ul class="sub-Points">
-      <li class="canopy">${projectData.information1}</li>
-      <li class="sub-Text">${projectData.information2}</li>
-      <li class="sub-Text">${projectData.information3}</li>
-    </ul>
-    <div class="desktop-Img-Works">
-      <img class="snapshoot" src="${projectData.img}" />
-    </div>
-    <p class="popup-paragraph">
-    ${projectData.description}
-    </p>
-    <div class="lang"></div>
-    <ul class="languages">
-      <li class="languages-List">${projectData.technolgies1}</li>
-      <li class="languages-List">${projectData.technologies2}</li>
-      <li class="languages-List">${projectData.technologies3}</li>
-    </ul>
-    <div class="popup-buttons">
-      <button class="see-live">
-      <a
-        class="live-link"
-        href="${projectData.seeLive}"
-      > See Live</a>
-        <img class="" src="/images/symbolproject.svg" />
-      </button>
+// function getHtml(projectData) {
+//   return `
+//        <img class="x-display" src="images/xim.svg">
+//     <h2 class="tonic">Pricing Panel</h2>
+//     <ul class="sub-Points">
+//       <li class="canopy">${projectData.information1}</li>
+//       <li class="sub-Text">${projectData.information2}</li>
+//       <li class="sub-Text">${projectData.information3}</li>
+//     </ul>
+//     <div class="desktop-Img-Works">
+//       <img class="snapshoot" src="${projectData.img}" />
+//     </div>
+//     <p class="popup-paragraph">
+//     ${projectData.description}
+//     </p>
+//     <div class="lang"></div>
+//     <ul class="languages">
+//       <li class="languages-List">${projectData.technolgies1}</li>
+//       <li class="languages-List">${projectData.technologies2}</li>
+//       <li class="languages-List">${projectData.technologies3}</li>
+//     </ul>
+//     <div class="popup-buttons">
+//       <button class="see-live">
+//       <a
+//         class="live-link"
+//         href="${projectData.seeLive}"
+//       > See Live</a>
+//         <img class="" src="/images/symbolproject.svg" />
+//       </button>
 
-    <button class="see-source">
-    <a
-        class="source-link"
-        href="${projectData.seeSource}"
-      > See Source</a>
-      <img class="" src="/images/kittyproject.svg" />
-      </div>
-    </button>
-  `;
-}
-function getProject(projectData) {
-  return `
-  <div class="desktop-Img-Works">
-                    <img class="snapshoot" src="images/Snapshoot-Portfolio1.svg" alt="Snapshoot-Image">
-                </div>
-                <div class="desktop-Text-Works">
-                    <h2 class="tonic">Tonic</h2>
-                    <ul class="sub-Points">
-                        <li class="canopy">${projectData.information1}</li>
-                        <li class="sub-Text">${projectData.information2}</li>
-                        <li class="sub-Text">${projectData.information3}</li>
-                    </ul>
-                    <p class="description-Text">${projectData.description}</p>
-                    <div class="lang">
-                        <ul class="languages">
-                            <li><button class="languages-List" type="submit">${projectData.technolgies1}</button></li>
-                            <li><button class="languages-List" type="submit">${projectData.technologies2}</button></li>
-                            <li><button class="languages-List" type="submit">${projectData.technologies3}</button></li>
-                        </ul>
-                    </div>
-                    <button class="btn-Project" type="submit">See Project</button>
-                </div>`;
-}
-function getOtherProject(projectData) {
-  return `
-  <div class="desktop-Img-Works flip">
-  <img class="snapshoot" src="images/Snapshoot-Portfolio2.svg" alt="Snapshoot-Image">
-</div>
-<div class="desktop-Text-Works">
-  <h2 class="tonic">Multi-Post Stories</h2>
-  <ul class="sub-Points">
-      <li class="canopy">${projectData.information1}</li>
-      <li class="sub-Text">${projectData.information2}</li>
-      <li class="sub-Text">${projectData.information3}</li>
-  </ul>
-  <p class="description-Text">${projectData.description}</p>
-  <div class="lang">
-      <ul class="languages">
-          <li><button class="languages-List" type="submit">${projectData.technolgies1}</button></li>
-          <li><button class="languages-List" type="submit">${projectData.technologies2}</button></li>
-          <li><button class="languages-List" type="submit">${projectData.technolgies3}</button></li>
-      </ul>
-  </div>
-  <button class="btn-Project" type="submit">See Project</button>
-</div>`;
-}
+//     <button class="see-source">
+//     <a
+//         class="source-link"
+//         href="${projectData.seeSource}"
+//       > See Source</a>
+//       <img class="" src="/images/kittyproject.svg" />
+//       </div>
+//     </button>
+//   `;
+// }
+// function getProject(projectData) {
+//   return `
+//   <div class="desktop-Img-Works">
+//                     <img class="snapshoot" src="images/Snapshoot-Portfolio1.svg" alt="Snapshoot-Image">
+//                 </div>
+//                 <div class="desktop-Text-Works">
+//                     <h2 class="tonic">Pricing Panel</h2>
+//                     <ul class="sub-Points">
+//                         <li class="canopy">${projectData.information1}</li>
+//                         <li class="sub-Text">${projectData.information2}</li>
+//                         <li class="sub-Text">${projectData.information3}</li>
+//                     </ul>
+//                     <p class="description-Text">${projectData.description}</p>
+//                     <div class="lang">
+//                         <ul class="languages">
+//                             <li><button class="languages-List" type="submit">${projectData.technolgies1}</button></li>
+//                             <li><button class="languages-List" type="submit">${projectData.technologies2}</button></li>
+//                             <li><button class="languages-List" type="submit">${projectData.technologies3}</button></li>
+//                         </ul>
+//                     </div>
+//                     <button class="btn-Project" type="submit">See Project</button>
+//                 </div>`;
+// }
+// function getOtherProject(projectData) {
+//   return `
+//   <div class="desktop-Img-Works flip">
+//   <img class="snapshoot" src="images/Snapshoot-Portfolio2.svg" alt="Snapshoot-Image">
+// </div>
+// <div class="desktop-Text-Works">
+//   <h2 class="tonic">Multi-Post Stories</h2>
+//   <ul class="sub-Points">
+//       <li class="canopy">${projectData.information1}</li>
+//       <li class="sub-Text">${projectData.information2}</li>
+//       <li class="sub-Text">${projectData.information3}</li>
+//   </ul>
+//   <p class="description-Text">${projectData.description}</p>
+//   <div class="lang">
+//       <ul class="languages">
+//           <li><button class="languages-List" type="submit">${projectData.technolgies1}</button></li>
+//           <li><button class="languages-List" type="submit">${projectData.technologies2}</button></li>
+//           <li><button class="languages-List" type="submit">${projectData.technolgies3}</button></li>
+//       </ul>
+//   </div>
+//   <button class="btn-Project" type="submit">See Project</button>
+// </div>`;
+// }
 const popupMenu = document.createElement('div');
 popupMenu.innerHTML = getHtml(portfolio[0]);
 document.body.appendChild(popupMenu);
