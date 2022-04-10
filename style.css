@@ -852,10 +852,10 @@ textarea:focus {
   }
 
   #form {
-    background-image: url(images/desktop-contact-form-background-shapes.svg);
     background-repeat: no-repeat;
     padding-bottom: 20px;
     background-size: contain;
+    background-image: linear-gradient(to right, #437fc7, #6daffe);
   }
 
   .desktop-Form-Center {
