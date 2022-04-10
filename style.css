@@ -636,6 +636,10 @@ textarea:focus {
   padding-top: 1rem;
 }
 
+.drop-tool {
+  margin-right: -30px;
+}
+
 #score {
   display: block;
   margin-right: auto;
